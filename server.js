@@ -12,6 +12,7 @@ app.get("/", function (req, res) {
 app.post("/", function (req, res) {
     const email = req.body.emailInput;
     console.log(email);
+    res.send("Thank You for posting that!!");
 })
 
 
